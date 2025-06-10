@@ -1,0 +1,22 @@
+[2025-06-10 11:08:10:247]  DateTime 타이머 초기화 완료
+[2025-06-10 11:08:31:456]  Form Load Error: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.1.200:23
+[2025-06-10 11:08:34:529]  Failed to send TRIGGER ON command: System disconnected
+[2025-06-10 11:08:34:609]  Failed to send TRIGGER OFF command: System disconnected
+[2025-06-10 11:08:35:843]  Failed to send TRIGGER ON command: System disconnected
+[2025-06-10 11:08:35:952]  Failed to send TRIGGER OFF command: System disconnected
+[2025-06-10 11:08:36:538]  Failed to send TRIGGER ON command: System disconnected
+[2025-06-10 11:08:36:618]  Failed to send TRIGGER OFF command: System disconnected
+[2025-06-10 11:08:37:290]  Failed to send TRIGGER ON command: System disconnected
+[2025-06-10 11:08:37:410]  Failed to send TRIGGER OFF command: System disconnected
+[2025-06-10 11:08:39:392]  Failed to send TRIGGER ON command: System disconnected
+[2025-06-10 11:08:39:452]  Failed to send TRIGGER OFF command: System disconnected
+[2025-06-10 13:20:08:043]  DateTime 타이머 초기화 완료
+[2025-06-10 13:20:29:102]  Form Load Error: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.1.200:23
+[2025-06-10 13:20:31:440]  Failed to send TRIGGER ON command: System disconnected
+[2025-06-10 13:20:31:488]  Failed to send TRIGGER OFF command: System disconnected
+[2025-06-10 13:20:48:922]  DateTime 타이머 초기화 완료
+[2025-06-10 13:21:10:024]  Form Load Error: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.1.200:23
+[2025-06-10 13:28:50:422]  DateTime 타이머 초기화 완료
+[2025-06-10 13:29:11:467]  Form Load Error: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.1.200:23
+[2025-06-10 13:29:44:273]  DateTime 타이머 초기화 완료
+[2025-06-10 13:30:05:325]  Form Load Error: 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.1.200:23

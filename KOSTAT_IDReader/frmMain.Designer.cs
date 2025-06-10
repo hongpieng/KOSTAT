@@ -92,7 +92,7 @@ namespace KOSTAT_IDReader
             this.LeftPanel.Controls.Add(this.rtxLog, 0, 1);
             this.LeftPanel.Controls.Add(this.ConnectionPanel, 0, 2);
             this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LeftPanel.Location = new System.Drawing.Point(0, 94);
+            this.LeftPanel.Location = new System.Drawing.Point(0, 88);
             this.LeftPanel.Margin = new System.Windows.Forms.Padding(0);
             this.LeftPanel.Name = "LeftPanel";
             this.LeftPanel.RowCount = 3;
@@ -100,7 +100,7 @@ namespace KOSTAT_IDReader
             this.LeftPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 78.70564F));
             this.LeftPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.LeftPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.LeftPanel.Size = new System.Drawing.Size(335, 930);
+            this.LeftPanel.Size = new System.Drawing.Size(210, 872);
             this.LeftPanel.TabIndex = 1220;
             // 
             // LeftControlPanel
@@ -118,7 +118,7 @@ namespace KOSTAT_IDReader
             this.LeftControlPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
             this.LeftControlPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35F));
             this.LeftControlPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.LeftControlPanel.Size = new System.Drawing.Size(335, 189);
+            this.LeftControlPanel.Size = new System.Drawing.Size(210, 177);
             this.LeftControlPanel.TabIndex = 1;
             // 
             // bt_Trigger
@@ -128,7 +128,7 @@ namespace KOSTAT_IDReader
             this.bt_Trigger.Location = new System.Drawing.Point(0, 0);
             this.bt_Trigger.Margin = new System.Windows.Forms.Padding(0);
             this.bt_Trigger.Name = "bt_Trigger";
-            this.bt_Trigger.Size = new System.Drawing.Size(335, 85);
+            this.bt_Trigger.Size = new System.Drawing.Size(210, 79);
             this.bt_Trigger.TabIndex = 0;
             this.bt_Trigger.Text = "Trigger";
             this.bt_Trigger.UseVisualStyleBackColor = true;
@@ -139,10 +139,10 @@ namespace KOSTAT_IDReader
             // 
             this.nd_NRead.Dock = System.Windows.Forms.DockStyle.Fill;
             this.nd_NRead.Font = new System.Drawing.Font("굴림", 14F, System.Drawing.FontStyle.Bold);
-            this.nd_NRead.Location = new System.Drawing.Point(0, 151);
+            this.nd_NRead.Location = new System.Drawing.Point(0, 140);
             this.nd_NRead.Margin = new System.Windows.Forms.Padding(0);
             this.nd_NRead.Name = "nd_NRead";
-            this.nd_NRead.Size = new System.Drawing.Size(335, 29);
+            this.nd_NRead.Size = new System.Drawing.Size(210, 29);
             this.nd_NRead.TabIndex = 2;
             this.nd_NRead.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nd_NRead.Value = new decimal(new int[] {
@@ -160,11 +160,11 @@ namespace KOSTAT_IDReader
             this.SelectPathPanel.Controls.Add(this.bt_SelectPath, 1, 0);
             this.SelectPathPanel.Controls.Add(this.tb_Path, 0, 0);
             this.SelectPathPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SelectPathPanel.Location = new System.Drawing.Point(3, 88);
+            this.SelectPathPanel.Location = new System.Drawing.Point(3, 82);
             this.SelectPathPanel.Name = "SelectPathPanel";
             this.SelectPathPanel.RowCount = 1;
             this.SelectPathPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.SelectPathPanel.Size = new System.Drawing.Size(329, 60);
+            this.SelectPathPanel.Size = new System.Drawing.Size(204, 55);
             this.SelectPathPanel.TabIndex = 3;
             // 
             // bt_SelectPath
@@ -172,10 +172,10 @@ namespace KOSTAT_IDReader
             this.bt_SelectPath.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bt_SelectPath.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_SelectPath.ForeColor = System.Drawing.Color.Black;
-            this.bt_SelectPath.Location = new System.Drawing.Point(263, 0);
+            this.bt_SelectPath.Location = new System.Drawing.Point(163, 0);
             this.bt_SelectPath.Margin = new System.Windows.Forms.Padding(0);
             this.bt_SelectPath.Name = "bt_SelectPath";
-            this.bt_SelectPath.Size = new System.Drawing.Size(66, 60);
+            this.bt_SelectPath.Size = new System.Drawing.Size(41, 55);
             this.bt_SelectPath.TabIndex = 2;
             this.bt_SelectPath.Text = "Path";
             this.bt_SelectPath.UseVisualStyleBackColor = true;
@@ -188,19 +188,19 @@ namespace KOSTAT_IDReader
             this.tb_Path.Location = new System.Drawing.Point(3, 3);
             this.tb_Path.Multiline = true;
             this.tb_Path.Name = "tb_Path";
-            this.tb_Path.Size = new System.Drawing.Size(257, 54);
+            this.tb_Path.Size = new System.Drawing.Size(157, 49);
             this.tb_Path.TabIndex = 0;
             // 
             // rtxLog
             // 
-            this.rtxLog.BackColor = System.Drawing.SystemColors.MenuText;
+            this.rtxLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.rtxLog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rtxLog.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtxLog.ForeColor = System.Drawing.SystemColors.Window;
-            this.rtxLog.Location = new System.Drawing.Point(0, 189);
+            this.rtxLog.ForeColor = System.Drawing.Color.Red;
+            this.rtxLog.Location = new System.Drawing.Point(0, 177);
             this.rtxLog.Margin = new System.Windows.Forms.Padding(0);
             this.rtxLog.Name = "rtxLog";
-            this.rtxLog.Size = new System.Drawing.Size(335, 702);
+            this.rtxLog.Size = new System.Drawing.Size(210, 656);
             this.rtxLog.TabIndex = 3;
             this.rtxLog.Text = "";
             // 
@@ -212,11 +212,11 @@ namespace KOSTAT_IDReader
             this.ConnectionPanel.Controls.Add(this.lb_bLaserCon, 0, 0);
             this.ConnectionPanel.Controls.Add(this.lb_bCamCon, 0, 0);
             this.ConnectionPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ConnectionPanel.Location = new System.Drawing.Point(3, 894);
+            this.ConnectionPanel.Location = new System.Drawing.Point(3, 836);
             this.ConnectionPanel.Name = "ConnectionPanel";
             this.ConnectionPanel.RowCount = 1;
             this.ConnectionPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.ConnectionPanel.Size = new System.Drawing.Size(329, 33);
+            this.ConnectionPanel.Size = new System.Drawing.Size(204, 33);
             this.ConnectionPanel.TabIndex = 2;
             // 
             // lb_bLaserCon
@@ -228,10 +228,10 @@ namespace KOSTAT_IDReader
             this.lb_bLaserCon.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold);
             this.lb_bLaserCon.ForeColor = System.Drawing.Color.Red;
             this.lb_bLaserCon.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lb_bLaserCon.Location = new System.Drawing.Point(164, 0);
+            this.lb_bLaserCon.Location = new System.Drawing.Point(102, 0);
             this.lb_bLaserCon.Margin = new System.Windows.Forms.Padding(0);
             this.lb_bLaserCon.Name = "lb_bLaserCon";
-            this.lb_bLaserCon.Size = new System.Drawing.Size(165, 33);
+            this.lb_bLaserCon.Size = new System.Drawing.Size(102, 33);
             this.lb_bLaserCon.TabIndex = 1221;
             this.lb_bLaserCon.Text = "Laser PC";
             this.lb_bLaserCon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -248,7 +248,7 @@ namespace KOSTAT_IDReader
             this.lb_bCamCon.Location = new System.Drawing.Point(0, 0);
             this.lb_bCamCon.Margin = new System.Windows.Forms.Padding(0);
             this.lb_bCamCon.Name = "lb_bCamCon";
-            this.lb_bCamCon.Size = new System.Drawing.Size(164, 33);
+            this.lb_bCamCon.Size = new System.Drawing.Size(102, 33);
             this.lb_bCamCon.TabIndex = 1220;
             this.lb_bCamCon.Text = "IDReader";
             this.lb_bCamCon.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -263,7 +263,7 @@ namespace KOSTAT_IDReader
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(335, 94);
+            this.pictureBox1.Size = new System.Drawing.Size(210, 88);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1218;
             this.pictureBox1.TabStop = false;
@@ -277,10 +277,10 @@ namespace KOSTAT_IDReader
             this.lb_DateTime.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold);
             this.lb_DateTime.ForeColor = System.Drawing.Color.Gray;
             this.lb_DateTime.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lb_DateTime.Location = new System.Drawing.Point(858, 0);
+            this.lb_DateTime.Location = new System.Drawing.Point(538, 0);
             this.lb_DateTime.Margin = new System.Windows.Forms.Padding(0);
             this.lb_DateTime.Name = "lb_DateTime";
-            this.lb_DateTime.Size = new System.Drawing.Size(422, 94);
+            this.lb_DateTime.Size = new System.Drawing.Size(422, 88);
             this.lb_DateTime.TabIndex = 1217;
             this.lb_DateTime.Text = "0000/00/00 00:00:00";
             this.lb_DateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -292,13 +292,13 @@ namespace KOSTAT_IDReader
             this.RightPanel.Controls.Add(this.bt_Exit, 0, 1);
             this.RightPanel.Controls.Add(this.dgv_Data, 0, 0);
             this.RightPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RightPanel.Location = new System.Drawing.Point(858, 94);
+            this.RightPanel.Location = new System.Drawing.Point(538, 88);
             this.RightPanel.Margin = new System.Windows.Forms.Padding(0);
             this.RightPanel.Name = "RightPanel";
             this.RightPanel.RowCount = 2;
             this.RightPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 89.52569F));
             this.RightPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.47431F));
-            this.RightPanel.Size = new System.Drawing.Size(422, 930);
+            this.RightPanel.Size = new System.Drawing.Size(422, 872);
             this.RightPanel.TabIndex = 0;
             // 
             // bt_Exit
@@ -306,10 +306,10 @@ namespace KOSTAT_IDReader
             this.bt_Exit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bt_Exit.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Exit.ForeColor = System.Drawing.Color.Red;
-            this.bt_Exit.Location = new System.Drawing.Point(0, 832);
+            this.bt_Exit.Location = new System.Drawing.Point(0, 780);
             this.bt_Exit.Margin = new System.Windows.Forms.Padding(0);
             this.bt_Exit.Name = "bt_Exit";
-            this.bt_Exit.Size = new System.Drawing.Size(422, 98);
+            this.bt_Exit.Size = new System.Drawing.Size(422, 92);
             this.bt_Exit.TabIndex = 1;
             this.bt_Exit.Text = "Exit";
             this.bt_Exit.UseVisualStyleBackColor = true;
@@ -329,7 +329,7 @@ namespace KOSTAT_IDReader
             this.dgv_Data.Name = "dgv_Data";
             this.dgv_Data.RowHeadersVisible = false;
             this.dgv_Data.RowTemplate.Height = 23;
-            this.dgv_Data.Size = new System.Drawing.Size(422, 832);
+            this.dgv_Data.Size = new System.Drawing.Size(422, 780);
             this.dgv_Data.TabIndex = 2;
             // 
             // _dateTime
@@ -367,10 +367,10 @@ namespace KOSTAT_IDReader
             this.lb_CamName.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold);
             this.lb_CamName.ForeColor = System.Drawing.Color.Gray;
             this.lb_CamName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lb_CamName.Location = new System.Drawing.Point(335, 0);
+            this.lb_CamName.Location = new System.Drawing.Point(210, 0);
             this.lb_CamName.Margin = new System.Windows.Forms.Padding(0);
             this.lb_CamName.Name = "lb_CamName";
-            this.lb_CamName.Size = new System.Drawing.Size(523, 94);
+            this.lb_CamName.Size = new System.Drawing.Size(328, 88);
             this.lb_CamName.TabIndex = 1219;
             this.lb_CamName.Text = "ID Reader Name";
             this.lb_CamName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -395,16 +395,16 @@ namespace KOSTAT_IDReader
             this.MainTablePanel.RowCount = 2;
             this.MainTablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.246575F));
             this.MainTablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.75343F));
-            this.MainTablePanel.Size = new System.Drawing.Size(1280, 1024);
+            this.MainTablePanel.Size = new System.Drawing.Size(960, 960);
             this.MainTablePanel.TabIndex = 2;
             // 
             // MainDisplay
             // 
             this.MainDisplay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MainDisplay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainDisplay.Location = new System.Drawing.Point(338, 97);
+            this.MainDisplay.Location = new System.Drawing.Point(213, 91);
             this.MainDisplay.Name = "MainDisplay";
-            this.MainDisplay.Size = new System.Drawing.Size(517, 924);
+            this.MainDisplay.Size = new System.Drawing.Size(322, 866);
             this.MainDisplay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MainDisplay.TabIndex = 1221;
             this.MainDisplay.TabStop = false;
@@ -413,13 +413,13 @@ namespace KOSTAT_IDReader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 1024);
+            this.ClientSize = new System.Drawing.Size(960, 960);
             this.Controls.Add(this.MainTablePanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Form";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.LeftPanel.ResumeLayout(false);
